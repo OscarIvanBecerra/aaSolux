@@ -1,0 +1,158 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    margin-top: 0;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos del encabezado */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-right: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Estilos del contenido principal */
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* Estilos del pie de página */
+  
+  footer {
+    background: rgb(70, 70, 70);
+    padding: 50px 0px 20px 0px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: auto;
+  }
+  .partFooter{
+    width: 22%;
+    text-align: center;
+} 
+
+.partFooter img{
+    width: 60%;
+}
+
+.partFooter h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    background-color: #008B8B;
+    border-radius: 5px;
+    border: 1px solid #008B8B;
+    padding: 5px;
+}
+
+.contact{
+    margin: 10px;
+    display: block;
+    text-align: left;
+}
+
+.contact > i{
+    float: left;
+    margin: 0 0 0 10px;
+    color: #008B8B;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact >p{
+    margin-left: 50px;
+    align-items: center;
+    line-height: 28px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.partFooter > a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 6px;
+}
+.partFooter > a:hover {
+    background-color: #2996c2;
+    transition: all ease-in-out .6s;
+}
+ /*GALERIA*/ 
+div.h1galeria{
+    color: white;
+    text-shadow: 1px 2px 2px black, 0 0 25px rgb(68, 68, 73),0 0 5px rgb(68, 68, 73);
+    text-align: center;
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 lightblue, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+div.galeria:hover{
+    border: 1px solid rgb(0, 0, 0);
+    transform: rotate(-3deg);
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 5px 5px rgb(53, 47, 53);
+    padding: 10px;
+}
